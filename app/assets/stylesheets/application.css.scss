@@ -16,6 +16,17 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
 h1, h2, h3 {
   font-family: 'Permanent Marker' , cursive;
+}
+
+body, .navbar {
+  //Gradient provided by @moeamaya at cssgradient.io
+  background: rgb(13,19,215);
+  background: radial-gradient(circle, rgba(13,19,215,1) 23%, rgba(231,135,29,1) 85%);
+}
+
+.navbar {
+  border: none;
 }
